@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React, {useRef, useState} from 'react';
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Stars from "./components/Stars/Stars";
+import Footer from "./components/Footer/Footer";
+const App = () => {
+    const [isPageOpen, setIsPageOpen] = useState(false)
+    const bottomRef = useRef()
+    return (
+        <div>
+            <Stars>
+                <Header bottomRef={bottomRef} setIsPageOpen={setIsPageOpen} isPageOpen={isPageOpen}/>
+                <Main bottomRef={bottomRef} isPageOpen={isPageOpen}/>
+                <Footer isPageOpen={isPageOpen}/>
+            </Stars>
+        </div>
+    );
+};
 
 export default App;

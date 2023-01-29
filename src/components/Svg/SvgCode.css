@@ -1,0 +1,64 @@
+.arrowD{
+    position: absolute;
+    max-height: 38px;
+    bottom: 30px;
+    max-width: 130px;
+    width: 100%;
+    height: 100%;
+}
+.arrowD-pulsiveUp{
+    position: absolute;
+    bottom: 30px;
+    animation: pulsiveUp 1000ms infinite;
+}
+.arrowD-pulsiveDawn{
+    position: absolute;
+    bottom: 30px;
+    animation: pulsiveDawn 1000ms infinite;
+}
+@keyframes pulsiveUp {
+    0%{
+        bottom: 30px;
+        opacity: 0.7;
+    }
+    100%{
+        bottom: 50px;
+        opacity: 0;
+    }
+}
+@keyframes pulsiveDawn {
+    0%{
+        bottom: 30px;
+        opacity: 0.7;
+    }
+    100%{
+        bottom: 10px;
+        opacity: 0;
+    }
+}
+.mainSvg{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1320px){
+    .mainSvg{
+        width: 90%;
+        height: 90%;
+    }
+    .arrowD, .arrowD-pulsiveDawn, .arrowD-pulsiveUp{
+        max-height: 29px;
+        max-width: 100px;
+    }
+}
+@media screen and (max-width: 824px){
+    .arrowD, .arrowD-pulsiveDawn, .arrowD-pulsiveUp{
+        max-height: 24px;
+        max-width: 80px;
+    }
+}
+@media screen and (max-width: 424px){
+    .arrowD, .arrowD-pulsiveDawn, .arrowD-pulsiveUp{
+        max-height: 18px;
+        max-width: 60px;
+    }
+}
