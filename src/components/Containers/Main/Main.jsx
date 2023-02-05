@@ -1,10 +1,10 @@
 import React from 'react';
 import './Main.css'
 import moon from './moon.png'
-const Main = ({isPageOpen, bottomRef}) => {
+const Main = ({isPageOpen, arrowRef}) => {
     return (
-        <div style={isPageOpen ? {} : {display: 'none'}} className={'main'}>
-            <div  ref={bottomRef} className={'main_about-comp'}>
+        <div ref={arrowRef} style={isPageOpen ? {} : {display: 'none'}} className={'main'}>
+            <div className={'main_about-comp'}>
                 <h2  className={'main_title'}>О компании</h2>
                 <div className={'main_text'}>
                     <p>

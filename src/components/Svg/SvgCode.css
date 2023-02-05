@@ -16,6 +16,10 @@
     bottom: 30px;
     animation: pulsiveDawn 1000ms infinite;
 }
+.map, .email, .phone{
+    width: 4.375rem;
+    height: 4.375rem;
+}
 @keyframes pulsiveUp {
     0%{
         bottom: 30px;

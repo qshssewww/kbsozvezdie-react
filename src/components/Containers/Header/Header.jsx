@@ -1,13 +1,13 @@
-import SvgCode from "../Svg/SvgCode";
+import SvgCode from "../../Svg/SvgCode";
 import './Header.css'
-import logo from  './logotip.png'
-const Header = ({setIsPageOpen, bottomRef, isPageOpen}) => {
+import logo from './logotip.png'
+const Header = ({setIsPageOpen, footerRef, arrowRef, isPageOpen}) => {
     const handleClick = async  () => {
         await setIsPageOpen(true)
-        await bottomRef.current.scrollIntoView({ behavior: "smooth" });
+        await arrowRef.current.scrollIntoView({ behavior: "smooth" });
     }
     return (
-        <div className={'header'}>
+        <div ref={footerRef} className={'header'}>
             <div className={isPageOpen ? 'header_container-none' : 'header_container'}>
                 <img className={'header_logo'} src={logo} alt="logo"/>
                 <div className={'header_line'}></div>

@@ -35,6 +35,11 @@
     text-align: center;
     -webkit-text-stroke: 0.05rem white;
 }
+.micro{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
 .header_logo{
     max-width: 811px;
     max-height: 410px;

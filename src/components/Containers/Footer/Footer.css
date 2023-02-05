@@ -1,6 +1,6 @@
 .footer{
     white-space: nowrap;
-    margin-top: 7.25rem;
+    margin-top: 116px;
     padding: 0 5.625rem;
     width: 100%;
     display: flex;
@@ -8,16 +8,29 @@
     justify-content: center;
     color: white;
 }
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
 .footer_contact-text{
     margin-left: 1.25rem;
     font-size: 1.375rem;
+    font-weight: 500 !important;
+
+}
+.footer_contact-text:hover{
+    -webkit-text-stroke: 0.05rem white;
 }
 .footer_contact:not(:last-child){
     margin-bottom: 0.9375rem;
 }
 .footer_title-text{
-    font-weight: 600;
     font-size: 2.2rem;
+}
+.footer_icon{
+    width: 20rem;
+    height: 21.6875rem;
 }
 .footer_container{
     display: flex;
@@ -44,10 +57,23 @@
     background: rgba(252, 252, 252, 0.8);
 }
 @media screen and (max-width: 1320px){
-
+    .footer{
+        padding: 0 2rem;
+    }
 }
 @media screen and (max-width: 824px){
-
+    .footer{
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .footer_container{
+        align-items: center;
+        white-space: normal;
+        line-height: 20px;
+    }
+    .footer_title-line{
+        display: none;
+    }
 }
 @media screen and (max-width: 424px){
 
