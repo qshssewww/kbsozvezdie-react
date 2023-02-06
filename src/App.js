@@ -10,7 +10,6 @@ const App = () => {
     return (
         <div className={'App'}>
             <Stars>
-                <div>222222</div>
                 <Header footerRef={footerRef} arrowRef={arrowRef} setIsPageOpen={setIsPageOpen} isPageOpen={isPageOpen}/>
                 <Main arrowRef={arrowRef} isPageOpen={isPageOpen}/>
                 <Footer footerRef={footerRef} isPageOpen={isPageOpen}/>
