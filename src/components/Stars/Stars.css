@@ -10,7 +10,7 @@
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
-@-o-keyframes move-twink-back {
+@-ms-keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
@@ -26,7 +26,7 @@
     from {background-position:0 0;}
     to {background-position:10000px 0;}
 }
-@-o-keyframes move-clouds-back {
+@-ms-keyframes move-clouds-back {
     from {background-position: 0;}
     to {background-position:10000px 0;}
 }
@@ -46,6 +46,8 @@
 
 .stars {
     background:#000 url('stars.png') repeat top center;
+    background-image: url("stars.png");
+    background-image: -webkit-image-set(url("stars.png") 1x);
 }
 
 
@@ -53,7 +55,6 @@
     padding: 0 10px;
     background:transparent url('twinkling.png') repeat top center;
     -moz-animation:move-twink-back 200s linear infinite;
-    -ms-animation:move-twink-back 200s linear infinite;
     -o-animation:move-twink-back 200s linear infinite;
     -webkit-animation:move-twink-back 200s linear infinite;
     animation:move-twink-back 200s linear infinite;
