@@ -45,9 +45,7 @@
 }
 
 .stars {
-    background:#000 url('stars.png') repeat top center;
-    background-image: url("stars.png");
-    background-image: -webkit-image-set(url("stars.png") 1x);
+    background: #000 -webkit-image-set(url("stars.png") 1x) repeat top center;
 }
 
 
