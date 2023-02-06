@@ -91,7 +91,7 @@
     bottom: 30px;
     -moz-animation:pulsiveUp 1000ms infinite;
     -o-animation:pulsiveUp 1000ms infinite;
-    -webkit-animation: pulsiveUp 1000ms infinite;
+    -webkit-animation: pulsiveUp 900ms infinite;
     animation: pulsiveUp 1000ms infinite;
 }
 .arrowD-pulsiveDawn{
@@ -99,7 +99,7 @@
     bottom: 30px;
     -moz-animation:pulsiveDawn 1000ms infinite;
     -o-animation:pulsiveDawn 1000ms infinite;
-    -webkit-animation: pulsiveDawn 1000ms infinite;
+    -webkit-animation: pulsiveDawn 900ms infinite;
     animation: pulsiveDawn 1000ms infinite;
 }
 .map, .email, .phone{
