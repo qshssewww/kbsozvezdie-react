@@ -1,10 +1,10 @@
 @keyframes pulsiveUp {
     from {
-        bottom: 30px;
+        bottom: 8%;
         opacity: 0.7;
     }
     to {
-        bottom: 50px;
+        bottom: 10%;
         opacity: 0;
     }
 }
@@ -14,67 +14,67 @@
         opacity: 0.7;
     }
     to {
-        bottom: 10px;
+        bottom: 1%;
         opacity: 0;
     }
 }
 @-webkit-keyframes pulsiveUp {
     from {
-        bottom: 30px;
+        bottom: 8%;
         opacity: 0.7;
     }
     to {
-        bottom: 50px;
+        bottom: 10%;
         opacity: 0;
     }
 }
 @-webkit-keyframes pulsiveDawn {
     from {
-        bottom: 30px;
+        bottom: 8%;
         opacity: 0.7;
     }
     to {
-        bottom: 10px;
+        bottom: 1%;
         opacity: 0;
     }
 }
 @-moz-keyframes pulsiveUp {
     from {
-        bottom: 30px;
+        bottom: 8%;
         opacity: 0.7;
     }
     to {
-        bottom: 50px;
+        bottom: 10%;
         opacity: 0;
     }
 }
 @-moz-keyframes pulsiveDawn {
     from {
-        bottom: 30px;
+        bottom: 8%;
         opacity: 0.7;
     }
     to {
-        bottom: 10px;
+        bottom: 1%;
         opacity: 0;
     }
 }
 @-ms-keyframes pulsiveUp {
     from {
-        bottom: 30px;
+        bottom: 8%;
         opacity: 0.7;
     }
     to {
-        bottom: 50px;
+        bottom: 10%;
         opacity: 0;
     }
 }
 @-ms-keyframes pulsiveDawn {
     from {
-        bottom: 30px;
+        bottom: 8%;
         opacity: 0.7;
     }
     to {
-        bottom: 10px;
+        bottom: 1%;
         opacity: 0;
     }
 }
@@ -91,9 +91,7 @@
     bottom: 30px;
     -moz-animation:pulsiveUp 1000ms infinite;
     -o-animation:pulsiveUp 1000ms infinite;
-    -webkit-animation-name: pulsiveUp;
-    -webkit-animation-duration: 1000ms;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsiveUp 1000ms infinite;
     animation: pulsiveUp 1000ms infinite;
 }
 .arrowD-pulsiveDawn{
@@ -101,9 +99,7 @@
     bottom: 30px;
     -moz-animation:pulsiveDawn 1000ms infinite;
     -o-animation:pulsiveDawn 1000ms infinite;
-    -webkit-animation-name: pulsiveDawn;
-    -webkit-animation-duration: 1000ms;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: pulsiveDawn 1000ms infinite;
     animation: pulsiveDawn 1000ms infinite;
 }
 .map, .email, .phone{
