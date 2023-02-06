@@ -1,9 +1,10 @@
 .header{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 90%;
 }
 .header_container{
-    margin-top: 9.375rem;
     display: flex;
     flex-direction: column;
     align-items: center;

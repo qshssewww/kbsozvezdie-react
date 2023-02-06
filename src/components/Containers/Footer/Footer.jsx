@@ -21,7 +21,7 @@ const Footer = ({isPageOpen, footerRef}) => {
                     </div>
                     <div className={'footer_contact'}>
                         <a href='tel: +7 963 680-66-66'><SvgCode nameSvg={'phone'}/></a>
-                        <a href={'tel: +7 963 680-66-66'} className={'footer_contact-text'}>+7 963 680-66-66</a>
+                        <a href='tel: +7 963 680-66-66' className={'footer_contact-text'}>+7 963 680-66-66</a>
                     </div>
                 </div>
                 <img onClick={() => footerRef.current.scrollIntoView({ behavior: "smooth" })} className={'footer_icon'}  width={320} height={347} src={stars} alt="stars"/>
