@@ -28,11 +28,12 @@ a{
     font-size: 2.2rem;
 }
 .footer_icon{
-    width: 20rem;
-    height: 21.6875rem;
+    width: 15rem;
+    height: 16.6875rem;
 }
 .footer_container{
     display: flex;
+    align-items: center;
 }
 .footer_title{
     width: 100%;
@@ -75,5 +76,7 @@ a{
     }
 }
 @media screen and (max-width: 424px){
-
+    .footer_icon{
+        margin-top: 20px;
+    }
 }
