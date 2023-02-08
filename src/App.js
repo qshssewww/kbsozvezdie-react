@@ -5,7 +5,7 @@ import Stars from "./components/Stars/Stars";
 import Footer from "./components/Containers/Footer/Footer";
 import Satellite from "./components/Satellite/Satellite";
 const App = () => {
-    const [isPageOpen, setIsPageOpen] = useState(true)
+    const [isPageOpen, setIsPageOpen] = useState(false)
     const arrowRef = useRef()
     const footerRef = useRef()
     return (
