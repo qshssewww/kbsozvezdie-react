@@ -26,7 +26,7 @@ const Satellite = () => {
     const loader = new GLTFLoader();
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-    camera.position.set(10, 7 ,10); // Set position like this
+    camera.position.set(11, 3 ,15); // Set position like this
     const renderer = new THREE.WebGLRenderer({
       antialias: true,
       alpha: true,
@@ -38,7 +38,7 @@ const Satellite = () => {
     const ambientLight = new THREE.AmbientLight(0xffffff, 1);
     scene.add(ambientLight);
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableZoom = true;
+    controls.enableZoom = false;
     controls.panSpeed = 0;
     controls.autoRotate = true;
 
@@ -52,13 +52,16 @@ const Satellite = () => {
     const light = new THREE.PointLight(0xc4c4c4,14);
     light.position.set(900,50,500);
     scene.add(light);
+
     const light2 = new THREE.PointLight(0xc4c4c4,4);
     light2.position.set(1500,100,-500);
     scene.add(light2);
+
     const light3 = new THREE.PointLight(0xCC5500,6);
     light3.position.set(0, 100, 0)
     scene.add(light3)
-    const light5 = new THREE.PointLight(0xc4c4c4,4);
+
+    const light5 = new THREE.PointLight(0xc4c4c4,4); // orange
     light5.position.set(-700, 200, 100)
     scene.add(light5)
 
