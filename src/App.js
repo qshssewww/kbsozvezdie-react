@@ -10,11 +10,11 @@ const App = () => {
     const footerRef = useRef()
     return (
         <div className={'App'}>
-            <div className={'satellite'} id={'foxy'}></div>
-            <Satellite/>
             <Stars>
                 <Header footerRef={footerRef} arrowRef={arrowRef} setIsPageOpen={setIsPageOpen} isPageOpen={isPageOpen}/>
                 <Main arrowRef={arrowRef} isPageOpen={isPageOpen}/>
+                <div style={isPageOpen ? {} : {display: "none"}} className={'satellite'} id={'sal'}></div>
+                <Satellite/>
                 <Footer footerRef={footerRef} isPageOpen={isPageOpen}/>
             </Stars>
         </div>
