@@ -87,6 +87,7 @@
     }
 }
 .arrowD{
+    cursor: pointer;
     position: absolute;
     max-height: 38px;
     bottom: 30px;
@@ -95,19 +96,15 @@
     height: 100%;
 }
 .arrowD-pulsiveUp{
+    cursor: pointer;
     position: absolute;
     bottom: 30px;
-    -moz-animation:pulsiveUp 1000ms infinite;
-    -o-animation:pulsiveUp 1000ms infinite;
-    -webkit-animation: pulsiveUp 1000ms infinite;
     animation: pulsiveUp 1000ms infinite;
 }
 .arrowD-pulsiveDawn{
+    cursor: pointer;
     position: absolute;
     bottom: 30px;
-    -moz-animation:pulsiveDawn 1000ms infinite;
-    -o-animation:pulsiveDawn 1000ms infinite;
-    -webkit-animation: pulsiveDawn 1000ms infinite;
     animation: pulsiveDawn 1000ms infinite;
 }
 .map, .email, .phone{
