@@ -50,7 +50,6 @@
 
 
 .twinkling{
-    padding: 0 10px;
     background:transparent url('twinkling.png') repeat top center;
     -moz-animation:move-twink-back 200s linear infinite;
     -o-animation:move-twink-back 200s linear infinite;
