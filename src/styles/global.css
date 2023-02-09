@@ -25,13 +25,12 @@ body{
 }
 canvas{
     width: 100% !important;
-    height: 69em !important;
+    height: 100% !important;
 }
 @media screen and (max-width: 1320px){
     html{
         font-size: 12px;
     }
-
 }
 @media screen and (max-width: 824px){
     html{
@@ -42,5 +41,4 @@ canvas{
     html{
         font-size: 8px;
     }
-
 }

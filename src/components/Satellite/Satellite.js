@@ -25,8 +25,8 @@ const Satellite = () => {
   function init(){
     const loader = new GLTFLoader();
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera( 99, window.innerWidth/window.innerHeight, 0.1, 1000 );
-    camera.position.set(13, 2 ,15); // Set position like this
+    const camera = new THREE.PerspectiveCamera( 70, window.innerWidth/window.innerHeight, 0.1, 1000 );
+    camera.position.set(13, 8 ,15); // Set position like this
     const renderer = new THREE.WebGLRenderer({
       antialias: true,
       alpha: true,
