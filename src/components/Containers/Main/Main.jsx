@@ -35,6 +35,25 @@ const Main = ({isPageOpen, arrowRef}) => {
                     </ul>
                 </div>
             </div>
+            <div className={'main_micro micro'}>
+                <h2 className={'micro_title'}>Микросхемы</h2>
+                <div className={'micro_block'}>
+                    <div className={'micro_text-block'}>
+                        <p className={'micro_text'}>Разработка СБИС, в том числе типа «cистема-на-кристалле». Мы предлагаем своим клиентам полный комплект услуг по подготовке и сопровождению мелкосерийного и массового производства микросхем на базе широкого спектра современных технологий. В зависимости от потребностей клиентов мы готовы работать в разных форматах:</p>
+                        <ul className={'micro_ul-text'}>
+                            <li className={'micro_text-item'}>полный цикл разработки сбис</li>
+                            <li className={'micro_text-item'}>разработка топологии сбис по схемотехнике или rtl коду заказчика</li>
+                            <li className={'micro_text-item'}>разработка сф-блоков</li>
+                            <li className={'micro_text-item'}>перевод имеющихся проектов из реализации на плис в сбис</li>
+                            <li className={'micro_text-item'}>выполнение работ по проверке топологии заказчика</li>
+                            <li className={'micro_text-item'}>запуск и сопровождение изготовления кристаллов по всем возможным маршрутам фабрик, с которыми сотрудничаем (mpw/mlm/full mask set);</li>
+                            <li className={'micro_text-item'}>разработка и изготовление контактирующих устройств интегральных микросхем (в корпусах любых типов, в том числе, отечественных).</li>
+                            <li className={'micro_text-item'}>поставка различных типов корпусов для микросхем как отечественных, так и зарубежных.</li>
+                        </ul>
+                    </div>
+                    <img className={'micro_img'} src={micro} alt="micro"/>
+                </div>
+            </div>
         </div>
     );
 };
