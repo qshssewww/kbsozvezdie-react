@@ -19,29 +19,22 @@
     }
 }
 @-webkit-keyframes pulsiveUp {
-    0% {
+    from {
         bottom: 30px;
         opacity: 0.7;
     }
-    50%{
-        bottom: 40px;
-        opacity: 0.4;
-    }
-    100% {
+
+    to{
         bottom: 50px;
         opacity: 0;
     }
 }
 @-webkit-keyframes pulsiveDawn {
-    0%{
+    from{
         bottom: 30px;
         opacity: 0.7;
     }
-    50%{
-        bottom: 20px;
-        opacity: 0.4;
-    }
-    100%{
+    to{
         bottom: 10px;
         opacity: 0;
     }

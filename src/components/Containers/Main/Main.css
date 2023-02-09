@@ -1,4 +1,4 @@
-.main img{
+.main_moon{
     width: 1050px;
     height: 1050px;
     object-fit: cover;
@@ -6,7 +6,6 @@
     top: 0;
     left: -660px;
 }
-
 .main_title{
     margin-top: 1.875rem;
     font-size: 3.125rem;
@@ -30,7 +29,41 @@
     margin-top: 5.625rem;
     color: white;
 }
-
+.main_services{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services_title{
+    max-width: 70.375rem;
+    font-weight: 500;
+    line-height: 160%;
+    text-align: center;
+    font-size: 50px;
+}
+.services_text{
+    margin-left: 7.5rem;
+    font-size: 20px;
+    max-width: 37.5rem;
+}
+.services_text-item{
+    line-height: 170%;
+}
+.services_text-item:not(:last-child){
+    margin-bottom: 2.4rem;
+}
+.services_scheme{
+    margin: 0 auto;
+    width: 30.125rem;
+    height: 30.125rem ;
+}
+.services_block{
+    margin-top: 6.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main{
     margin-top: 6.25rem;
     position: relative;
@@ -41,7 +74,7 @@
     width: 100%;
     }
 @media screen and (max-width: 1320px){
-    .main img{
+    .main_moon{
         width: 700px;
         height: 700px;
         left: -480px;
@@ -52,7 +85,7 @@
     }
 }
 @media screen and (max-width: 824px){
-    .main img{
+    .main_moon{
         width: 500px;
         height: 500px;
         left: -250px;
@@ -61,7 +94,7 @@
 
 }
 @media screen and (max-width: 424px){
-    .main img{
+    .main_moon{
         width: 400px;
         height: 400px;
         left: -250px;

@@ -13,8 +13,6 @@ const App = () => {
             <Stars>
                 <Header footerRef={footerRef} arrowRef={arrowRef} setIsPageOpen={setIsPageOpen} isPageOpen={isPageOpen}/>
                 <Main arrowRef={arrowRef} isPageOpen={isPageOpen}/>
-                <div style={isPageOpen ? {} : {display: "none"}} className={'satellite'} id={'sal'}></div>
-                <Satellite/>
                 <Footer footerRef={footerRef} isPageOpen={isPageOpen}/>
             </Stars>
         </div>

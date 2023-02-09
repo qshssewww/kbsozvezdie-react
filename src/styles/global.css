@@ -24,6 +24,8 @@ body{
     justify-content: center;
 }
 canvas{
+    width: 81.25rem !important;
+    height: 48.5rem !important;
 }
 @media screen and (max-width: 1320px){
     html{
