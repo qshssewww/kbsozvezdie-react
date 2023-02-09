@@ -134,6 +134,9 @@
     .services_scheme, .micro_text-block{
         margin: 0 0 5.1254rem 0;
     }
+    .main{
+        margin-top: 0;
+    }
 
 }
 @media screen and (max-width: 424px){
