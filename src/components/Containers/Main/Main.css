@@ -96,6 +96,7 @@
     flex-direction: column;
 }
 .main{
+    overflow-x: hidden;
     color: white;
     margin-top: 6.25rem;
     position: relative;
