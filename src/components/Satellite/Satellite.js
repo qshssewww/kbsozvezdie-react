@@ -65,7 +65,7 @@ const Satellite = () => {
     light5.position.set(-700, 200, 100)
     scene.add(light5)
 
-    renderer.setSize( width/1.5, height/1.5 );
+    renderer.setSize( width, height* 0.86 );
     const container = document.getElementById( 'sal' );
     container.appendChild( renderer.domElement );
     document.addEventListener( 'mousemove', onMouseMove, false );
@@ -107,13 +107,13 @@ const Satellite = () => {
     function onResize(  ) {
 
       const width = window.innerWidth;
-      const height = window.innerHeight;
+      const height = window.innerHeight * 0.84;
 
-      windowHalf.set( width / 2, height / 2 );
+      windowHalf.set( width / 2, height * 0.84 );
 
       camera.aspect = width / height;
       camera.updateProjectionMatrix();
-      renderer.setSize( width, height );
+      renderer.setSize( width, height * 0.84 );
 
     }
 

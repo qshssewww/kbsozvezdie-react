@@ -23,9 +23,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 canvas{
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%!important;
+    height: 100%!important;
 }
 @media screen and (max-width: 1320px){
     html{
