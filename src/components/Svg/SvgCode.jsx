@@ -11,7 +11,7 @@ const SvgCode = ({nameSvg, onClick, pulsiveDawn, pulsiveUp}) => {
             }
             {
                 nameSvg === 'map' &&
-                <svg className={'map'}  viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className={'map'} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M60 20V20.033" stroke="#FCFCFC" strokeWidth="2.08333" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M60.0003 43.3334L48.3337 26.6667C47.2106 24.6368 46.6365 22.349 46.6682 20.0294C46.7 17.7097 47.3364 15.4385 48.5146 13.4401C49.6928 11.4417 51.372 9.78523 53.3864 8.63447C55.4007 7.4837 57.6805 6.87842 60.0003 6.87842C62.3202 6.87842 64.5999 7.4837 66.6143 8.63447C68.6286 9.78523 70.3078 11.4417 71.4861 13.4401C72.6643 15.4385 73.3007 17.7097 73.3324 20.0294C73.3641 22.349 72.7901 24.6368 71.667 26.6667L60.0003 43.3334Z" stroke="#FCFCFC" strokeWidth="2.08333" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M35 15.8335L30 13.3335L10 23.3335V66.6668L30 56.6668L50 66.6668L70 56.6668V50.0002" stroke="#FCFCFC" strokeWidth="2.08333" strokeLinecap="round" strokeLinejoin="round"/>
@@ -33,6 +33,12 @@ const SvgCode = ({nameSvg, onClick, pulsiveDawn, pulsiveUp}) => {
                 nameSvg === 'phone' &&
                 <svg className={'phone'}  viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16.6667 13.3335H30L36.6667 30.0002L28.3333 35.0002C31.9032 42.2386 37.7616 48.097 45 51.6668L50 43.3335L66.6667 50.0002V63.3335C66.6667 65.1016 65.9643 66.7973 64.714 68.0475C63.4638 69.2978 61.7681 70.0002 60 70.0002C46.9975 69.21 34.7338 63.6885 25.5228 54.4774C16.3117 45.2663 10.7902 33.0026 10 20.0002C10 18.2321 10.7024 16.5364 11.9526 15.2861C13.2029 14.0359 14.8986 13.3335 16.6667 13.3335" stroke="#FCFCFC" strokeWidth="2.08333" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+            }
+            {
+                nameSvg === 'arrowBlue' &&
+                <svg className={'arrowBlue'} width="86" height="38" viewBox="0 0 86 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 3L43 35L83 3" stroke="#004890" strokeWidth="4.16667" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             }
         </>

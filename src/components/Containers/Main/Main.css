@@ -1,3 +1,15 @@
+/*--------------------MAIN---------------------*/
+.main{
+    overflow-x: hidden;
+    color: white;
+    margin-top: 6.25rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
 .main_moon{
     width: 1050px;
     height: 1050px;
@@ -28,11 +40,7 @@
     z-index: 1;
     margin-top: 5.625rem;
 }
-.main_services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/*--------------------SERVICES---------------------*/
 .services_title{
     max-width: 70.375rem;
     font-weight: 500;
@@ -40,31 +48,13 @@
     text-align: center;
     font-size: 3.125rem;
 }
-.micro_title{
-    margin-bottom: 1.25rem;
-    line-height: 160%;
-    font-size: 3.125rem;
-}
 .services_text{
     margin-left: 7.5rem;
     font-size: 1.25rem;
     max-width: 37.5rem;
 }
-.micro_text-block{
-    font-size: 1.25rem;
-
-    max-width: 37.5rem;
-    margin-right: 7.3rem;
-}
-.micro_text-item:not(:last-child){
-    margin-bottom: 1.15rem;
-}
 .services_text-item{
     line-height: 170%;
-}
-.micro_text{
-    line-height: 185%;
-    margin-bottom: 1.5rem;
 }
 .services_text-item:not(:last-child){
     margin-bottom: 2.4rem;
@@ -76,36 +66,79 @@
 }
 .services_block{
     margin-top: 6.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.micro_img{
-    width: 31.125rem;
-    height: 31.125rem;
-}
-.micro_block{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*--------------------MICRO---------------------*/
 .micro{
     margin-top: 8.125rem;
     display: flex;
     align-items: start;
     flex-direction: column;
 }
-.main{
-    overflow-x: hidden;
-    color: white;
-    margin-top: 6.25rem;
-    position: relative;
+.micro_title{
+    margin-bottom: 1.25rem;
+    line-height: 160%;
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+.micro_text-block{
+    font-size: 1.25rem;
+    max-width: 37.5rem;
+    margin-right: 7.3rem;
+}
+.micro_text-item{
+    font-weight: 500;
+}
+.micro_text-item:not(:last-child){
+    margin-bottom: 1.15rem;
+}
+.micro_text{
+    line-height: 185%;
+    margin-bottom: 1.5rem;
+}
+.micro_img{
+    width: 31.125rem;
+    height: 31.125rem;
+}
+.micro_block, .services_block{
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    }
+    align-items: center;
+}
+/*--------------------PRODUCTS---------------------*/
+.products{
+    margin-top: 6.25rem;
+}
+.products_title{
+    font-weight: 400;
+    text-align: center;
+    font-size: 3.125rem;
+}
+.products_text{
+    text-align: center;
+    line-height: 2.875rem;
+    font-size: 1.25rem;
+}
+.products_silterra, .products_angstrem, .main_services, .products_mikron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products_silterra-img{
+    width: 22.06rem;
+    height: 3.625rem;
+    margin: 5.9rem 0 2.5rem 0;
+}
+.products_mikron-img{
+    width: 22.06rem;
+    height: 5.5rem;
+}
+.products_angstrem-img{
+    width: 27.56rem;
+    height: 3.9375rem;
+}
+.products_mikron-img, .products_angstrem-img{
+    margin: 3.525rem 0 1.25rem 0;
+}
 @media screen and (max-width: 1320px){
     .main_moon{
         width: 700px;
@@ -134,6 +167,9 @@
     .services_scheme, .micro_text-block{
         margin: 0 0 5.1254rem 0;
     }
+    .products_title{
+        font-size: 2.7rem;
+    }
     .main{
         margin-top: 0;
     }
@@ -144,5 +180,8 @@
         height: 400px;
         left: -250px;
         top: 12vh;
+    }
+    .products_title{
+        font-size: 2rem;
     }
 }

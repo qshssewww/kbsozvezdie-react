@@ -3,7 +3,11 @@ import './Main.css'
 import moon from './moon.png'
 import scheme from './scheme.png'
 import micro from './micro.png'
+import silterra from './silterra.png'
+import angstrem from './angstrem.png'
+import mikron from './mikron.png'
 import Satellite from "../../Satellite/Satellite";
+import SvgCode from "../../Svg/SvgCode";
 const Main = ({isPageOpen, arrowRef}) => {
     return (
         <div ref={arrowRef} style={isPageOpen ? {} : {display: 'none'}} className={'main'}>
@@ -52,6 +56,21 @@ const Main = ({isPageOpen, arrowRef}) => {
                         </ul>
                     </div>
                     <img className={'micro_img'} src={micro} alt="micro"/>
+                </div>
+            </div>
+            <div className={'main_products products'}>
+                <h1 className={'products_title'}>предоставление полного комплекта средств проектирования по доступным процессам</h1>
+                <div className={'products_silterra'}>
+                    <img className={'products_silterra-img'} src={silterra} alt="silterra"/>
+                    <SvgCode nameSvg={'arrowBlue'}/>
+                </div>
+                <div className={'products_mikron'}>
+                    <img className={'products_mikron-img'} src={mikron} alt="mikron"/>
+                    <p className={'products_text'}>HCMOS10LP: КМОП процесс 90нм с пониженным потреблением <br/> HCMOS8D: Высоковольтный КМОП процесс 180нм <br/> SOI180: КМОП КНИ процесс 180нм</p>
+                </div>
+                <div className={'products_angstrem'}>
+                    <img className={'products_angstrem-img'} src={angstrem} alt="angstrem"/>
+                    <p className={'products_text'}>250нм технология: Стандартный КМОП процесс 250нм</p>
                 </div>
             </div>
         </div>

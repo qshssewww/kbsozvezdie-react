@@ -106,6 +106,9 @@
     -webkit-animation: pulsiveDawn 1000ms infinite;
     animation: pulsiveDawn 1000ms infinite;
 }
+.arrowBlue{
+    cursor: pointer;
+}
 .map, .email, .phone{
     width: 4.375rem;
     height: 4.375rem;
@@ -123,6 +126,10 @@
     .arrowD, .arrowD-pulsiveDawn, .arrowD-pulsiveUp{
         max-height: 29px;
         max-width: 100px;
+    }
+    .arrowBlue{
+        width: 5rem;
+        height: 2.1875rem;
     }
 }
 @media screen and (max-width: 824px){
