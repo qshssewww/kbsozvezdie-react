@@ -59,7 +59,7 @@ const Main = ({isPageOpen, arrowRef}) => {
                 </div>
             </div>
             <div className={'main_products products'}>
-                <h1 className={'products_title'}>предоставление полного комплекта средств проектирования по доступным процессам</h1>
+                <h1 className={'products_title'}>Предоставление полного комплекта средств проектирования по доступным процессам</h1>
                 <div className={'products_silterra'}>
                     <img className={'products_silterra-img'} src={silterra} alt="silterra"/>
                     <SvgCode nameSvg={'arrowBlue'}/>
