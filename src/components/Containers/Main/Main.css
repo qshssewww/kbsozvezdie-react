@@ -138,6 +138,68 @@
 .products_mikron-img, .products_angstrem-img{
     margin: 3.525rem 0 1.6rem 0;
 }
+.products_silterra-text{
+    display: flex;
+    margin: 0 auto;
+}
+.products_silterra-item{
+    font-size: 1.25rem;
+}
+.products_silterra-item:not(:last-child){
+    margin-bottom: 1.4rem;
+    line-height: 2rem;
+}
+.products_silterra_block:first-child{
+    max-width: 37.5rem;
+}
+.products_silterra_block:last-child{
+    max-width: 32.5rem;
+    margin-left: 4rem;
+}
+.open .products_silterra-text{
+    max-height: 50rem;
+    transition-duration: .7s;
+    transition-timing-function: ease;
+    transition-property: max-height;
+    overflow: hidden;
+}
+.close .products_silterra-text{
+    max-height: 0;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    transition-property: max-height;
+    overflow: hidden;
+}
+/*--------------------MICROCHIP---------------------*/
+.microchip h3{
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+}
+.microchip_title{
+    font-size: 4rem;
+    text-align: center;
+}
+.microchip_functions-li{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.microchip_functions-li:not(:last-child){
+    margin-bottom: 1.25rem;
+}
+.microchip_block{
+    display: flex;
+    align-items: center;
+}
+.microchip_text-block{
+    display: flex;
+}
+.microchip_p{
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+}
+
 @media screen and (max-width: 1320px){
     .main_moon{
         width: 700px;

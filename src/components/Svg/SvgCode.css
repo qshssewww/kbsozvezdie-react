@@ -108,6 +108,18 @@
 }
 .arrowBlue{
     cursor: pointer;
+    content: '';
+    margin-bottom: 4rem;
+}
+.open .arrowBlue{
+    transform: rotate(180deg);
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.close .arrowBlue{
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 .map, .email, .phone{
     width: 4.375rem;

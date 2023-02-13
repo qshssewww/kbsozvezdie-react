@@ -1,6 +1,6 @@
 import React from 'react';
 import './SvgCode.css'
-const SvgCode = ({nameSvg, onClick, pulsiveDawn, pulsiveUp}) => {
+const SvgCode = ({nameSvg, onClick, pulsiveDawn, pulsiveUp, isProductsOpen}) => {
     return (
         <>
             {
@@ -37,7 +37,7 @@ const SvgCode = ({nameSvg, onClick, pulsiveDawn, pulsiveUp}) => {
             }
             {
                 nameSvg === 'arrowBlue' &&
-                <svg className={'arrowBlue'} width="86" height="38" viewBox="0 0 86 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg onClick={onClick} className={isProductsOpen ? 'arrowBlue open' : 'arrowBlue close'} width="86" height="38" viewBox="0 0 86 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 3L43 35L83 3" stroke="#004890" strokeWidth="4.16667" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             }

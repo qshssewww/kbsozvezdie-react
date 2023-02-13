@@ -26,7 +26,7 @@ const Satellite = () => {
     const loader = new GLTFLoader();
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-    camera.position.set(13, 7 ,15); // Set position like this
+    camera.position.set(13, 6 ,15); // Set position like this
     const renderer = new THREE.WebGLRenderer({
       antialias: true,
       alpha: true,
@@ -49,25 +49,25 @@ const Satellite = () => {
       BOTTOM: 'ArrowDown' // down arrow
     }
 
-    const light = new THREE.PointLight(0xc4c4c4,14);
+    const light = new THREE.PointLight(0xc4c4c4,9);
     light.position.set(900,50,500);
     scene.add(light);
 
-    const light2 = new THREE.PointLight(0xc4c4c4,6);
+    const light2 = new THREE.PointLight(0xc4c4c4,5);
     light2.position.set(1500,100,-500);
     scene.add(light2);
 
-    const light3 = new THREE.PointLight(0xCC5500,6);
+    const light3 = new THREE.PointLight(0xCC5500,4);// orange
     light3.position.set(0, 100, 0)
     scene.add(light3)
 
-    const light5 = new THREE.PointLight(0xc4c4c4,10); // orange
-    light5.position.set(-700, 200, 100)
+    const light5 = new THREE.PointLight(0xc4c4c4,15);
+    light5.position.set(-700, 0, 0)
     scene.add(light5)
 
-    // const light6 = new THREE.PointLight(0xc4c4c4,14); // orange
-    // light6.position.set(0, 0, 300)
-    // scene.add(light6)
+    const light6 = new THREE.PointLight(0xc4c4c4,2);
+    light6.position.set(0, 0, -600)
+    scene.add(light6)
 
     renderer.setSize( width, height* 0.86 );
     const container = document.getElementById( 'sal' );
