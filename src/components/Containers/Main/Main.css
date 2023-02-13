@@ -157,7 +157,7 @@
     margin-left: 4rem;
 }
 .open .products_silterra-text{
-    max-height: 50rem;
+    max-height: 70rem;
     transition-duration: .7s;
     transition-timing-function: ease;
     transition-property: max-height;
