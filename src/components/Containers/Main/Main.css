@@ -65,10 +65,12 @@
     height: 30.125rem ;
 }
 .services_block{
+    padding: 0 10px;
     margin-top: 6.8rem;
 }
 /*--------------------MICRO---------------------*/
 .micro{
+    padding: 0 20px;
     margin-top: 8.125rem;
     display: flex;
     align-items: start;
@@ -177,6 +179,7 @@
     margin-bottom: 1.25rem;
 }
 .microchip_title{
+    margin: 7rem 0 4.5rem 0;
     font-size: 4rem;
     text-align: center;
 }
@@ -184,22 +187,39 @@
     font-size: 1.25rem;
     line-height: 2rem;
 }
+.microchip_functions-block, .microchip_specifications-ul{
+    max-width: 24.125rem;
+}
+.microchip_functions{
+    margin: 0 3rem 0 7.5rem;
+}
 .microchip_functions-li:not(:last-child){
     margin-bottom: 1.25rem;
 }
+.microchip_specifications-li:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+.microchip_img{
+    width: 22.75rem;
+    height: 28.937rem;
+}
 .microchip_block{
+    font-size: 1.25rem;
     display: flex;
     align-items: center;
 }
 .microchip_text-block{
     display: flex;
+    justify-content: center;
 }
 .microchip_p{
     font-size: 1.375rem;
     font-weight: 500;
-    margin-top: 2.5rem;
+    margin: 2rem 0 0 30.24rem;
 }
-
+.microchip{
+    padding: 20px;
+}
 @media screen and (max-width: 1320px){
     .main_moon{
         width: 700px;
@@ -209,6 +229,9 @@
     }
     .main_about-comp{
         margin: auto 0;
+    }
+    .microchip_p{
+        margin-top: 2.1rem;
     }
 }
 @media screen and (max-width: 824px){
@@ -221,7 +244,7 @@
     .services_text{
         margin-left: 1.5rem;
     }
-    .services_block, .micro_block{
+    .services_block, .micro_block, .microchip_block{
         align-items: center;
         flex-direction: column;
     }
@@ -233,6 +256,16 @@
     }
     .main{
         margin-top: 0;
+    }
+    .microchip_p{
+        margin: 2.6rem 0 0 0;
+        text-align: center;
+    }
+    .microchip_img{
+        margin: 0 6rem 4rem 0;
+    }
+    .microchip_functions{
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 424px){

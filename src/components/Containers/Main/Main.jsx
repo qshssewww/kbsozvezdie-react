@@ -101,34 +101,34 @@ const Main = ({isPageOpen, arrowRef}) => {
                     <p className={'products_text'}>250нм технология: Стандартный КМОП процесс 250нм</p>
                 </div>
             </div>
-            {/*<div className={'main_microchip microchip'}>*/}
-            {/*    <h1 className={'microchip_title'}>МИКРОСХЕМА KB S101</h1>*/}
-            {/*    <div className={'microchip_block'}>*/}
-            {/*        <img src={microchip} alt="microchip"/>*/}
-            {/*        <div className={'microchip_text-block'}>*/}
-            {/*            <div className={'microchip_functions'}>*/}
-            {/*                <h3 className={'microchip_functions-title'}>функции:</h3>*/}
-            {/*                <ul>*/}
-            {/*                    <li className={'microchip_functions-li'}>Переключение потоков данных интерфейса I2C.</li>*/}
-            {/*                    <li className={'microchip_functions-li'}>Контроль температуры кристалла.</li>*/}
-            {/*                    <li className={'microchip_functions-li'}>Аналого-цифровое преобразование внешних сигналов.</li>*/}
-            {/*                    <li className={'microchip_functions-li'}>Считывание цифровых сигналов с внешних цепей и/или управление внешними цепями при помощи выводов общего назначения</li>*/}
-            {/*                </ul>*/}
-            {/*                <p className={'microchip_p'}>полное техническое описание предоставляется по запросу</p>*/}
-            {/*            </div>*/}
-            {/*            <div className={'microchip_specifications'}>*/}
-            {/*                <h3 className={'microchip_specifications-title'}>характеристики:</h3>*/}
-            {/*                <ul>*/}
-            {/*                    <li className={'microchip_specifications-li'}>Порты для подключения к I2C Master.</li>*/}
-            {/*                    <li className={'microchip_specifications-li'}>Независимые порты для подключения I2C Slave.</li>*/}
-            {/*                    <li className={'microchip_specifications-li'}>АЦП.</li>*/}
-            {/*                    <li className={'microchip_specifications-li'}>Цифровой термодатчик.</li>*/}
-            {/*                    <li className={'microchip_specifications-li'}>GPIO.</li>*/}
-            {/*                </ul>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className={'main_microchip microchip'}>
+                <h1 className={'microchip_title'}>МИКРОСХЕМА KB S101</h1>
+                <div className={'microchip_block'}>
+                    <img className={'microchip_img'} src={microchip} alt="microchip"/>
+                    <div className={'microchip_text-block'}>
+                        <div className={'microchip_functions'}>
+                            <h3 className={'microchip_functions-title'}>Функции:</h3>
+                            <ul className={'microchip_functions-block'}>
+                                <li className={'microchip_functions-li'}>Переключение потоков данных интерфейса I2C.</li>
+                                <li className={'microchip_functions-li'}>Контроль температуры кристалла.</li>
+                                <li className={'microchip_functions-li'}>Аналого-цифровое преобразование внешних сигналов.</li>
+                                <li className={'microchip_functions-li'}>Считывание цифровых сигналов с внешних цепей и/или управление внешними цепями при помощи выводов общего назначения</li>
+                            </ul>
+                        </div>
+                        <div className={'microchip_specifications'}>
+                            <h3 className={'microchip_specifications-title'}>Характеристики:</h3>
+                            <ul className={'microchip_specifications-ul'}>
+                                <li className={'microchip_specifications-li'}>Порты для подключения к I2C Master.</li>
+                                <li className={'microchip_specifications-li'}>Независимые порты для подключения I2C Slave.</li>
+                                <li className={'microchip_specifications-li'}>АЦП.</li>
+                                <li className={'microchip_specifications-li'}>Цифровой термодатчик.</li>
+                                <li className={'microchip_specifications-li'}>GPIO.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p className={'microchip_p'}>Полное техническое описание предоставляется по запросу</p>
+            </div>
         </div>
     );
 };

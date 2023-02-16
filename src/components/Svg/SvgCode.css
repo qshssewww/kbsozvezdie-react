@@ -109,7 +109,7 @@
 .arrowBlue{
     cursor: pointer;
     content: '';
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 .open .arrowBlue{
     transform: rotate(180deg);
