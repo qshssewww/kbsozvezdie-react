@@ -49,6 +49,7 @@
     font-size: 3.125rem;
 }
 .services_text{
+    font-weight: 500;
     margin-left: 7.5rem;
     font-size: 1.25rem;
     max-width: 37.5rem;
@@ -84,14 +85,15 @@
 }
 .micro_text-block{
     font-size: 1.25rem;
-    max-width: 37.5rem;
+    max-width: 54.5rem;
     margin-right: 7.3rem;
 }
 .micro_text-item{
     font-weight: 500;
+    line-height: 170%;
 }
 .micro_text-item:not(:last-child){
-    margin-bottom: 1.15rem;
+    margin-bottom: 2rem;
 }
 .micro_text{
     line-height: 185%;
