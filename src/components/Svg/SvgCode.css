@@ -165,6 +165,7 @@
     .arrowBlue{
         width: 5rem;
         height: 2.1875rem;
+        top: 150px;
     }
 }
 @media screen and (max-width: 824px){
@@ -172,10 +173,16 @@
         max-height: 24px;
         max-width: 80px;
     }
+    .arrowBlue{
+        top: 135px;
+    }
 }
 @media screen and (max-width: 424px){
     .arrowD, .arrowD-pulsiveDawn, .arrowD-pulsiveUp{
         max-height: 18px;
         max-width: 60px;
+    }
+    .arrowBlue{
+        top: 100px;
     }
 }
