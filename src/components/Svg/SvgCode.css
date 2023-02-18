@@ -79,6 +79,26 @@
         opacity: 0;
     }
 }
+@keyframes blueMove {
+    0%{margin-top: 0}
+    50%{margin-top:1.25rem}
+    100%{margin-top: 0}
+}
+@-webkit-keyframes blueMove {
+    0%{margin-top: 0}
+    50%{margin-top:1.25rem}
+    100%{margin-top: 0}
+}
+@-moz-keyframes blueMove {
+    0%{margin-top: 0}
+    50%{margin-top:1.25rem}
+    100%{margin-top: 0}
+}
+@-ms-keyframes blueMove {
+    0%{margin-top: 0}
+    50%{margin-top:1.25rem}
+    100%{margin-top: 0}
+}
 .arrowD{
     cursor: pointer;
     position: absolute;
@@ -106,9 +126,12 @@
     -webkit-animation: pulsiveDawn 1000ms infinite;
     animation: pulsiveDawn 1000ms infinite;
 }
+
 .arrowBlue{
+    position: absolute;
+    top: 190px;
+    z-index: 10;
     cursor: pointer;
-    content: '';
     margin-bottom: 1rem;
 }
 .open .arrowBlue{
@@ -116,10 +139,10 @@
     transition-duration: .3s;
     transition-timing-function: ease;
 }
-
 .close .arrowBlue{
     transition-duration: .3s;
     transition-timing-function: ease;
+    animation: blueMove 1500ms infinite;
 }
 .map, .email, .phone{
     width: 4.375rem;
