@@ -113,8 +113,10 @@
     margin-top: 6.25rem;
 }
 .products_title{
+    margin: 0 auto;
     text-align: center;
     font-size: 3.125rem;
+    max-width: 85%;
 }
 .products_text{
     text-align: center;
